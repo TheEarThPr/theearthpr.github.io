@@ -1,1 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.roundbtn {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-family: "Raleway", "Helvetica Neue", Arial;
+  color: white;
+  font-size: 16px;
+  padding: 37px 10px;
+  text-align: center;
+  margin: auto;
+}
+.roundbtn:hover{
+	color: white;
+	border: 1px solid #3498DB;
+	text-decoration: none;
+}
