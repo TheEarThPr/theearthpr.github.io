@@ -1,1 +1,0 @@
-$("#title").velocity("fadeIn", { duration: 1000 });
