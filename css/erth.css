@@ -84,7 +84,7 @@ hr{
 
 .cursor {
 	position: absolute;
-	background-color: #6bb9f0;
+	background-color: #f7797d;
 	width: 7px;
 	height: 7px;
 	border-radius: 100%;
@@ -125,7 +125,7 @@ hr{
 }
 
 a.gradient{
-    background: linear-gradient(-60deg,#7F7FD5,#86A8E7,#91EAE4);
+    background: linear-gradient(-60deg,#C6FFDD,#FBD786,#f7797d);
     background-size: 300%;
     animation: flow 10s ease-in-out infinite;
     -webkit-background-clip: text;
@@ -274,7 +274,7 @@ h1{
     background-image: -webkit-gradient(linear,
                                        left bottom,
                                        left top,
-                                       color-stop(0.44, rgb(127, 127, 213)),
-                                       color-stop(0.72, rgb(134, 168, 231)),
-                                       color-stop(0.86, rgb(145, 234, 228)));
+                                       color-stop(0.44, rgb(198, 255, 221)),
+                                       color-stop(0.72, rgb(251, 215, 134)),
+                                       color-stop(0.86, rgb(247, 121, 125)));
 }
