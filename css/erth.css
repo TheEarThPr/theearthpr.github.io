@@ -87,7 +87,7 @@ hr{
   background: #2e3131;
   font-weight: 700;
 }
-@media (min-width: 1281px) {
+@media screen and (min-width: 1281px) {
   .cursor {
     position: absolute;
     background-color: #f7797d;
@@ -128,12 +128,6 @@ hr{
   }
   .follow.hovered {
     opacity: 0.08;
-  }
-}
-@media (min-width: 320px) and (max-width: 1280px) {
-  .cursor {
-    position: absolute;
-    background-color: none;
   }
 }
 a.gradient{
