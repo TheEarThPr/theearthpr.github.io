@@ -130,6 +130,12 @@ hr{
     opacity: 0.08;
   }
 }
+@media (min-width: 320px) and (max-width: 1280px) {
+  .cursor {
+    position: absolute;
+    background-color: none;
+  }
+}
 a.gradient{
     background: linear-gradient(-60deg,#C6FFDD,#FBD786,#f7797d);
     background-size: 300%;
