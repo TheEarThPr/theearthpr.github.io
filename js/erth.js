@@ -54,3 +54,18 @@ ScrollReveal().reveal('.card5', { delay: 1000 });
 ScrollReveal().reveal('.card6', { delay: 1200 });
 ScrollReveal().reveal('.card7', { delay: 1400 });
 ScrollReveal().reveal('.card8', { delay: 1600 });
+
+/* Work details */
+$(window).scroll(function() {
+	var wScroll = $(this).scrollTop();
+	$(".logo").css({
+	  transform: "translate(0px, " + wScroll / 2 + "%)"
+	});
+	$(".back-bird").css({
+	  transform: "translate(0px, " + wScroll / 4 + "%)"
+	});
+	 $('.fore-bird').css({
+	 'transform':'translate(0px, -'+ wScroll / 40 +'%)'
+   });
+  });
+  
