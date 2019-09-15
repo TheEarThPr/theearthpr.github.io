@@ -10,6 +10,20 @@
   box-sizing: border-box;
 }
 
+.link{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.link:hover{
+    color: #4776ee;
+    border-bottom: 1px solid #4776ee;
+    text-decoration: none;
+  }
+}
+
 body{
     background: #2e3131;
 }
@@ -26,12 +40,6 @@ hr{
   background-color:#bdc3c7;
   height: 1px;
 }
-
-.abt{
-    position: relative;
-    overflow: hidden;
-    transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
-  }
 
 .back-button{
     padding-top: 4%;
