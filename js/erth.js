@@ -69,3 +69,4 @@ $(window).scroll(function() {
    });
   });
   
+/* full page scroll */
