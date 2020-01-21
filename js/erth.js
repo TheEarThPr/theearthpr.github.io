@@ -61,6 +61,10 @@ ScrollReveal().reveal('.resume-image', { delay: 100 });
 ScrollReveal().reveal('.exp1', { delay: 200 });
 ScrollReveal().reveal('.exp2', { delay: 400 });
 ScrollReveal().reveal('.exp3', { delay: 600 });
+ScrollReveal().reveal('.resume2', { delay: 400 });
+ScrollReveal().reveal('.resume3', { delay: 400 });
+ScrollReveal().reveal('.resume4', { delay: 400 });
+
 /* Work details */
 $(window).scroll(function() {
 	var wScroll = $(this).scrollTop();
