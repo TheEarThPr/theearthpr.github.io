@@ -64,6 +64,7 @@ ScrollReveal().reveal('.exp3', { delay: 600 });
 ScrollReveal().reveal('.resume2', { delay: 400 });
 ScrollReveal().reveal('.resume3', { delay: 400 });
 ScrollReveal().reveal('.resume4', { delay: 400 });
+ScrollReveal().reveal('.resume4', { delay: 600 });
 
 /* Work details */
 $(window).scroll(function() {
