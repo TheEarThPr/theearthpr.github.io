@@ -158,8 +158,12 @@ hr{
 }
 
 .resume5{
-  min-height: 100vh;
-  background-color: #555555;
+  min-height: 40vh;
+  background-color: #FFFFFF;
+}
+
+a .resume5:hover{
+  text-decoration: none;
 }
 
 .resume-image{
@@ -245,12 +249,25 @@ hr{
 }
 
 .resume-footer-header{
-  color: #FFFFFF;
+  color: #333333;
   padding-top: 5%;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
+}
+
+.resume-footer-top{
+  color: #333333;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.filter-white{
+  filter: invert(18%) sepia(18%) saturate(13%) hue-rotate(328deg) brightness(90%) contrast(89%);
 }
 
 .left-rectangle{
