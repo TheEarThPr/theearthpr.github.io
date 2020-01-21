@@ -179,7 +179,7 @@ hr{
 }
 
 .resume-edu{
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .resume-exp{
@@ -187,7 +187,7 @@ hr{
 }
 
 .resume-exp2{
-  padding-top: 10%;
+  padding-top: 3%;
 }
 
 .resume-exp3{
@@ -235,7 +235,6 @@ hr{
     color: #333333;
     text-align: left;
     font-weight: 700;
-    display: flex;
     padding-top: 10%;
 }
 
@@ -267,10 +266,11 @@ hr{
 }
 
 .left-rectangle{
-  width: 4px;
-  height: 72px;
+  width: 24px;
+  height: 8px;
   background-color: #1ba39c;
   margin-right: 16px;
+  border-radius: 4px;
 }
 
 .content{
