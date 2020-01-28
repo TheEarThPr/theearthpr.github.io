@@ -37,6 +37,7 @@ body{
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html .load-hidden {
@@ -55,14 +56,16 @@ hr{
 .back-button{
     padding-top: 4%;
     padding-left: 10%;
-    padding-bottom: 4%;
     font-weight: 900;
 }
 
 .back-button-center{
   padding-top: 4%;
-  padding-bottom: 4%;
   font-weight: 900;
+}
+
+.smokegrey{
+  color: #333333;
 }
 
 .credit{
@@ -281,6 +284,17 @@ hr{
   min-height: 100vh;
   background: #ececec;
   font-weight: 700;
+}
+
+.works-title{
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: left;
+  font-weight: 700;
+  padding-top: 5%;
+  left: -2%;
 }
 
 .menu{
@@ -553,23 +567,6 @@ h5{
 #works{
   overflow: auto;
   overflow-x: hidden;
-}
-
-#works::-webkit-scrollbar
-{
-    width: 10px;
-    background: transparent;
-}
-
-#works::-webkit-scrollbar-thumb
-{
-    border-radius: 10px;
-    background-image: -webkit-gradient(linear,
-                                       left bottom,
-                                       left top,
-                                       color-stop(0.44, rgb(198, 255, 221)),
-                                       color-stop(0.72, rgb(251, 215, 134)),
-                                       color-stop(0.86, rgb(247, 121, 125)));
 }
 
 /* Work Details Page */
