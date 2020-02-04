@@ -276,6 +276,15 @@ hr{
   border-radius: 4px;
 }
 
+.center-rectangle{
+  width: 24px;
+  height: 8px;
+  background-color: #1ba39c;
+  margin-right: 16px;
+  border-radius: 4px;
+  margin:0 auto;
+}
+
 .content{
   font-family: 'Lato', sans-serif;
   font-size: 50px;
@@ -295,6 +304,19 @@ hr{
   font-weight: 700;
   padding-top: 5%;
   left: -2%;
+}
+
+.workdetail-title{
+  text-align: center;
+  font-size: 28px;
+}
+
+.workdetail-hr{
+  width: 100%;
+  height: 4px;
+  background-color: #EEEEEE;
+  border-radius: 4px;
+  margin-top: 4%;
 }
 
 .menu{
