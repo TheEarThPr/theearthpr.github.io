@@ -56,12 +56,27 @@ hr{
 .back-button{
     padding-top: 4%;
     padding-left: 10%;
-    font-weight: 900;
+    font-weight: 700;
+}
+
+.back-button:hover{
+  padding-top: 4%;
+  padding-left: 10%;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333333;
 }
 
 .back-button-center{
   padding-top: 4%;
-  font-weight: 900;
+  font-weight: 700;
+  text-align: center;
+}
+
+.back-button-right{
+  padding-top: 4%;
+  font-weight: 700;
+  text-align: right;
 }
 
 .smokegrey{
@@ -279,7 +294,7 @@ hr{
 .center-rectangle{
   width: 24px;
   height: 8px;
-  background-color: #1ba39c;
+  background-color: #a5b2b5;
   margin-right: 16px;
   border-radius: 4px;
   margin:0 auto;
