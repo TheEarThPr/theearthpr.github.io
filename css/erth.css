@@ -321,6 +321,16 @@ hr{
   left: -2%;
 }
 
+.worklist-title{
+  font-family: 'Lato', sans-serif;
+  color: #333333;
+  text-align: center;
+}
+
+.worklist-row{
+  margin-bottom: 10%;
+}
+
 .workdetail-title{
   text-align: center;
   font-size: 28px;
