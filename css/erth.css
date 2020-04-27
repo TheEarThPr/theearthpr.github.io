@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Crete+Round:400i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
 @media only screen and (max-width: 960px) {
@@ -86,7 +87,7 @@ hr{
 .credit{
   color: #bdc3c7;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .panel {
@@ -108,7 +109,7 @@ hr{
   margin-bottom: 16px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .social-facebook{
@@ -141,7 +142,7 @@ hr{
   font-size: 16px;
   color: #333333;
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
   bottom: 50;
 }
 
@@ -150,24 +151,35 @@ hr{
   font-size: 16px;
   color: #4CA1AF;
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
   bottom: 50;
   text-decoration: none;
 }
 
+.left-title{
+  text-align: right;
+  vertical-align: middle;
+}
+
+.block-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .resume1{
-  min-height: 100vh;
-  background-color: #FFFFFF;
+  min-height: 110vh;
+  background-color: #FAFAFA;
 }
 
 .resume2{
-  min-height: 40vh;
-  background-color: #FFFFFF;
+  min-height: 50vh;
+  background-color: #FAFAFA;
 }
 
 .resume3{
   min-height: 70vh;
-  background-color: #FFFFFF;
+  background-color: #FAFAFA;
 }
 
 .resume4{
@@ -176,8 +188,8 @@ hr{
 }
 
 .resume5{
-  min-height: 40vh;
-  background-color: #FFFFFF;
+  min-height: 60vh;
+  background-color: #FAFAFA;
 }
 
 .resume-image{
@@ -197,7 +209,11 @@ hr{
 }
 
 .resume-edu{
-  padding-top: 3%;
+  padding: 3%;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.05);
+  transition: 0.3s;
+  border-radius: 8px;
 }
 
 .resume-exp{
@@ -247,11 +263,10 @@ hr{
 }
 
 .resume-title{
-    font-family: 'Lato', sans-serif;
-    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
     text-transform: uppercase;
     color: #333333;
-    text-align: left;
     font-weight: 700;
     padding-top: 5%;
 }
@@ -460,7 +475,7 @@ h1{
     color: #3a539b;
     position: relative;
     letter-spacing: 2px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h2{
@@ -471,7 +486,7 @@ h2{
   position: relative;
   text-align: left;
   letter-spacing: 10px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h3{
