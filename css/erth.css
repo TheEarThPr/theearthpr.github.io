@@ -325,25 +325,38 @@ hr{
   font-weight: 700;
 }
 
+.works{
+  background-color: #FAFAFA;
+}
+
 .works-title{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 48px;
   text-transform: uppercase;
   color: #333333;
   text-align: left;
-  font-weight: 700;
+  font-weight: 600;
   padding-top: 5%;
   left: -2%;
 }
 
+.work-card{
+  background-color: #FFFFFF;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
 .worklist-title{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   color: #333333;
   text-align: center;
 }
 
 .worklist-row{
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
 
 .workdetail-title{
