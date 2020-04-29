@@ -149,7 +149,7 @@ hr{
 .resume-black-link:hover{
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  color: #4CA1AF;
+  color: #446cb3;
   text-align: left;
   font-weight: 400;
   bottom: 50;
@@ -272,7 +272,7 @@ hr{
 }
 
 .resume-year{
-  color: #1ba39c;
+  color: #446cb3;
   line-height: 12pt;
 }
 
@@ -421,7 +421,7 @@ hr{
   }
 }
 a.gradient{
-    background: linear-gradient(-60deg,#4CA1AF,#2C3E50);
+    background: linear-gradient(-60deg,#446cb3,#152237);
     background-size: 300%;
     animation: flow 10s ease-in-out infinite;
     -webkit-background-clip: text;
@@ -431,7 +431,7 @@ a.gradient{
 }
 
 .gradient{
-  background: linear-gradient(-60deg,#4CA1AF,#2C3E50);
+  background: linear-gradient(-60deg,#446cb3,#152237);
   background-size: 300%;
   animation: flow 10s ease-in-out infinite;
   -webkit-background-clip: text;
@@ -441,7 +441,7 @@ a.gradient{
 }
 
 div.gradient{
-  background: linear-gradient(-60deg,#4CA1AF,#2C3E50);
+  background: linear-gradient(-60deg,#446cb3,#152237);
   background-size: 300%;
   animation: flow 10s ease-in-out infinite;
   -webkit-background-clip: text;
